@@ -1,5 +1,20 @@
 # Making Diffusion Models Faster with Quantization
 
+# !!!!!!!!! To run Q-Diffusion !!!!!!!!!
+
+### Environment Setup
+
+To reproduce this notebook:
+
+1. Create a new environment (e.g. `qdiffusion` with Python 3.11).
+2. Install PyTorch with CUDA following https://pytorch.org/get-started/locally/ (GPU users).
+3. Install remaining dependencies:
+
+ON CMD
+pip install -r Q_diffusion_requirements.txt
+
+# !!!!!!!!! End !!!!!!!!!
+
 ## Overview
 
 This model aims to optimize diffusion model inference using dynamic quantization techniques to achieve a 30% latency reduction while maintaining acceptable image quality.
