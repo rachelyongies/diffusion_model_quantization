@@ -1,0 +1,21 @@
+--extra-index-url https://pypi.org/simple
+
+# Core PyTorch (CPU+MPS build from PyPI, no CUDA wheels)
+torch==2.6.0
+torchvision==0.21.0
+torchaudio==2.6.0
+
+# Diffusion / transformers stack
+diffusers==0.31.0
+transformers==4.53.2
+accelerate==1.1.1
+safetensors==0.5.3
+
+# Metrics & vision utilities
+torchmetrics==1.5.2
+pillow==11.0.0
+numpy==2.1.3
+pandas==2.2.3
+matplotlib==3.9.2
+tqdm==4.66.5
+scipy==1.14.1
